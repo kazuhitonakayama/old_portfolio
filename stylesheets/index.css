@@ -1,3 +1,39 @@
-p {
-    color: red;
+/* index.html */
+
+/* header */
+header {
+    background-color: #fff;
+    height: 101.66px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-items {
+    display: flex;
+    align-items: center;
+    padding-right: 3%;
+}
+
+.header-item {
+    margin-left: 65px;
+}
+
+.header-item a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header-logoarea {
+    width: 20%;
+    height: auto;
+}
+
+.header_logo {
+    width: 100%;
+    height: auto;
+}
+
+/* footer */
+footer {
+    text-align: center;
 }

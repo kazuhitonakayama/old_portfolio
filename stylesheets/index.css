@@ -55,8 +55,9 @@ footer {
         position: absolute;
         right: 10px;
         top: 10px;
-        background: red;
+        background: #f66;
         border-radius: 44px;
+        transition: 0.6s;
     }
     
     .circle:hover {
@@ -70,6 +71,7 @@ footer {
         background: #f66;
         border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
         animation: border-animation 6s infinite linear;
+        transition: 0.6s;
     }
 
 

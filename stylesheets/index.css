@@ -62,15 +62,16 @@ footer {
     .circle:hover {
         display: block;
         height: 500px;
-        width: 70%;
+        width: 400px;
         position: absolute;
-        right: -100px;
+        right: -200px;
         z-index: 4;
         top: -100px;
         background: #f66;
         border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
         animation: border-animation 6s infinite linear;
     }
+
 
     /* Animation */
     @keyframes border-animation {

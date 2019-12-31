@@ -35,6 +35,7 @@ header {
 .firstview {
     display: flex;
     position: relative;
+    height: 600px;
 }
 .firstview-imagearea {
     width: 40%;
@@ -44,10 +45,14 @@ header {
     top: 100px;
     left: 100px;
 }
+.firstview-imagearea img {
+    width: 100%;
+    height: 315px;
+}
 .firstview-infoarea {
     position: absolute;
     top: 230px;
-    left: 400px;
+    right: 200px;
     width: 46%;
     background: blue;
     height: 300px;
@@ -91,5 +96,41 @@ footer {
     /* Animation */
     @keyframes border-animation {
       to { transform: rotate(360deg); }
+    }
+
+    /* firstview */
+    .firstview-imagearea {
+        width: 55%;
+        background: red;
+        height: 300px;
+        position: absolute;
+        top: 100px;
+        left: 50px;
+    }
+    .firstview-infoarea {
+        position: absolute;
+        top: 230px;
+        right: 40px;
+        width: 46%;
+        background: blue;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .firstview {
+        flex-direction: column;
+    }
+    .firstview-imagearea {
+        width: 100%;
+        background: red;
+        height: 300px;
+        position: unset;
+    }
+    .firstview-infoarea {
+        position: unset;
+        width: 100%;
+        background: blue;
+        height: 300px;
     }
 }

@@ -4,11 +4,7 @@
 }
 
 body {
-    background-color: #000;
-}
-
-p {
-    color: #000;
+    background-color: rgb(30,40,54);
 }
 
 ul , li {

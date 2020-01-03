@@ -2,10 +2,10 @@
 
 /* header */
 header {
-    background-color: #fff;
+    background-color: rgb(30,40,54);
     height: 101.66px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .header-items {
     display: flex;
@@ -17,15 +17,8 @@ header {
 }
 .header-item a {
     text-decoration: none;
-    color: #000;
-}
-.header-logoarea {
-    width: 300px;
-    height: auto;
-}
-.header_logo {
-    width: 100%;
-    height: auto;
+    color: #fff;
+    font-weight: bold;
 }
 .circle {
     display: none;
@@ -55,14 +48,22 @@ header {
     top: 230px;
     right: 200px;
     width: 46%;
-    background: #fff;
+    background: rgb(30,40,54);
+    color: #fff;
+    font-weight: bold;
     height: 300px;
-    box-shadow:1px 1px 16px -3px;
+    box-shadow: 7px 7px 8px;
+    border-radius: 10px;
+}
+.firstview-infoarea-text {
+    margin: 16% auto;
 }
 
 /* footer */
 footer {
     text-align: center;
+    color: #fff;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
@@ -114,12 +115,14 @@ footer {
         top: 230px;
         right: 40px;
         width: 46%;
-        background: #fff;
+        background: rgb(30,40,54);
         height: 300px;
+    }
+    .firstview-infoarea-text {
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     .firstview {
         flex-direction: column;
     }
@@ -132,7 +135,11 @@ footer {
     .firstview-infoarea {
         position: unset;
         width: 100%;
-        background: #fff;
+        background: rgb(30,40,54);
+        box-shadow: none;
+        border-radius: 0em;
         height: 300px;
+    }
+    .firstview-infoarea-text {
     }
 }

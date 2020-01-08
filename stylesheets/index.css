@@ -116,6 +116,11 @@ label#menu-icon {
     display: flex;
     position: relative;
     height: 600px;
+    background-image: url("../images/firstview-bg-2.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
 }
 .firstview-imagearea {
     width: 40%;
@@ -166,6 +171,9 @@ footer {
     }
 
     /* firstview */
+    .firstview {
+        height: 100vh;
+    }
     .firstview-imagearea {
         width: 55%;
         background: red;

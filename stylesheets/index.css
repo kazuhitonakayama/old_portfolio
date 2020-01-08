@@ -92,12 +92,12 @@ label#menu-icon {
     background-color: #fff;  /*中央バーを白色にして不可視に*/
 }
 #menu-cb:checked ~ #menu-icon::before {
-    transform: rotate(45deg);
+    transform: rotate(135deg);
     transition: 1s;               /*上方バーを黒色にして傾ける*/
     top: 0px;
 }
 #menu-cb:checked ~ #menu-icon::after {
-    transform: rotate(-45deg);
+    transform: rotate(-135deg);
     transition: 1s;              /*下方バーを黒色にして傾ける*/
     top: 0px;
 }
@@ -190,9 +190,12 @@ footer {
     }
     .firstview-imagearea {
         width: 100%;
-        background: red;
+        background: unset;
         height: 300px;
         position: unset;
+    }
+    .firstview-imagearea img {
+        height: auto;
     }
     .firstview-infoarea {
         position: unset;

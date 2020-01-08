@@ -3,7 +3,7 @@
 /* header */
 header {
     background-color: rgb(30,40,54);
-    height: 101.66px;
+    height: 50px;
     display: flex;
     justify-content: center;
 }
@@ -187,6 +187,7 @@ footer {
 @media screen and (max-width: 500px) {
     .firstview {
         flex-direction: column;
+        height: 100vh;
     }
     .firstview-imagearea {
         width: 100%;

@@ -151,6 +151,40 @@ label#menu-icon {
     margin: 80px auto;
 }
 
+/* page_top button */
+#page_top {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+}
+#page_top::before {
+    content: '';
+    /* background: #fff; */
+    border-top: 3px solid #fff;
+    border-left: 3px solid #fff;
+    display: block;
+    width: 20px;
+    top: 21px;
+    left: 16px;
+    position: absolute;
+    height: 20px;
+    transform: rotate(45deg);
+}
+#page_top a {
+    background-color: rgb(30,40,54);
+    display: inline-block;
+    border-radius: 40px;
+    color: #fff;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 14px;
+    width: 25px;
+    height: 15px;
+}
+#page_top a:hover {
+}
+
 /* footer */
 footer {
     text-align: center;

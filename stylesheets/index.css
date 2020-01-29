@@ -140,15 +140,16 @@ label#menu-icon {
     top: 230px;
     right: 200px;
     width: 46%;
-    background: rgba(30,40,54,0.4);
     color: #fff;
     font-weight: bold;
-    height: 300px;
     box-shadow: 7px 7px 8px;
     border-radius: 10px;
 }
 .firstview-infoarea-text {
     margin: 80px auto;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 
 /* page_top button */
@@ -224,8 +225,6 @@ footer {
         top: 230px;
         right: 40px;
         width: 46%;
-        background: rgba(30,40,54,0.4);
-        height: 300px;
     }
 }
 
@@ -246,10 +245,8 @@ footer {
     .firstview-infoarea {
         position: unset;
         width: 85%;
-        background: rgba(30,40,54,0.4);
         box-shadow: none;
         border-radius: 0em;
-        height: 300px;
         transform: translate(36px, 142px);
     }
 }

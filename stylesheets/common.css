@@ -52,7 +52,7 @@ label#menu-icon {
     text-align: center;
 }
 #menu-icon {
-    background-color: rgb(30,40,54); /*アイコン部分 ハンバーガー中央色*/
+    background-color: #fff; /*アイコン部分 ハンバーガー中央色*/
     border-radius: 10px; /*角丸*/
     color: #333; /*アイコン（フォント）色*/
     cursor: pointer;
@@ -71,7 +71,7 @@ label#menu-icon {
 }
 #menu-icon::before {
     content: '';
-    background-color: rgb(30,40,54); /*アイコン部分 ハンバーガー中央色*/
+    background-color: #fff; /*アイコン部分 ハンバーガー中央色*/
     border-radius: 10px; /*角丸*/
     display: block;
     height: 5px;
@@ -82,7 +82,7 @@ label#menu-icon {
 }
 #menu-icon::after {
     content: '';
-    background-color: rgb(30,40,54); /*アイコン部分 ハンバーガー中央色*/
+    background-color: #fff; /*アイコン部分 ハンバーガー中央色*/
     border-radius: 10px; /*角丸*/
     display: block;
     height: 5px;
@@ -113,10 +113,16 @@ label#menu-icon {
 }
 #menu-cb:checked ~ #menu-icon::after {
     transform: rotate(-135deg);
-    transition: 1s;              /*下方バーを黒色にして傾ける*/
-    top: 0px;
+    transition: 1s;
+    /*下方バーを黒色にして傾ける*/top: 0px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
 }
-
+li.header-item-sp a {
+    color: #000;
+}
 @media screen and (max-width: 768px) {
     /* hewder */
     header {
